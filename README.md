@@ -46,7 +46,11 @@ git clone https://github.com/mnv/python-course-portfolio.git
     ```
    Apply migrations to create tables in the database:
     ```shell
-    ./manage.py migrate
+    python manage.py migrate
+    ```
+   Create migrations if some models were changed:
+    ```shell
+    python manage.py makemigrations
     ```
 
 ## Usage
